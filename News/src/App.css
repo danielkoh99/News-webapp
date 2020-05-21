@@ -1,0 +1,17 @@
+.site-layout .site-layout-background {
+    background: rgb(236, 242, 248);
+}
+
+.site-layout-background {
+    text-align: center;
+}
+
+[data-theme="dark"] .site-layout .site-layout-background {
+    background: #352a2a;
+}
+
+@media screen and (min-width: 768px) {
+    .site-layout {
+        margin-left: 200px;
+    }
+}
